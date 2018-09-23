@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rules", "Rules\Rules.csproj", "{6C00E8B3-E966-4D65-910A-077A76D15988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{190DF0CE-4BCE-4DF9-9483-283E48DB1F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{190DF0CE-4BCE-4DF9-9483-283E48DB1F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{190DF0CE-4BCE-4DF9-9483-283E48DB1F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C00E8B3-E966-4D65-910A-077A76D15988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C00E8B3-E966-4D65-910A-077A76D15988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C00E8B3-E966-4D65-910A-077A76D15988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C00E8B3-E966-4D65-910A-077A76D15988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

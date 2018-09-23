@@ -9,6 +9,7 @@ Patterns =>
 - POM ( Page Object Model)
 - Singleton
 - Strategy
+- Rules
 
 All of these are based on https://www.automatetheplanet.com/category/series/designpatterns/page/3/ and are the mail 
 goal is give a brief explanation of their use in Automation testing.

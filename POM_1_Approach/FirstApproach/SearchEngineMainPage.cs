@@ -1,10 +1,5 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POM_1_Approach.FirstApproach
 {
@@ -25,7 +20,7 @@ namespace POM_1_Approach.FirstApproach
         [FindsBy(How = How.Id, Using = "sb_form_go")]
         public IWebElement GoButton { get; set; }
 
-        [FindsBy(How = How.Id, Using = "b_tween")]
+        [FindsBy(How = How.Id, Using = "sb_count")]
         public IWebElement ResultsCountDiv { get; set; }
 
         public void Navigate()

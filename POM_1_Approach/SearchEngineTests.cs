@@ -4,10 +4,6 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using POM_1_Approach.FirstApproach;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POM_1_Approach
 {
@@ -35,7 +31,7 @@ namespace POM_1_Approach
             searchEngineMainPage.Navigate();
             searchEngineMainPage.Search("Automate The Planet");
 
-            Assert.IsTrue(searchEngineMainPage.ResultsCountDiv.Text.Contains("381.000 Resultados"));
+            Assert.IsTrue(searchEngineMainPage.ResultsCountDiv.Text.Contains(".000 Resultados"));
         }
     }
 }

@@ -35,12 +35,12 @@ namespace Facade
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void PurchaseTest()
         {
             PurchaseFacade purchaseFacade = new PurchaseFacade(this.Driver);
 
-            var itemPrice = "US $729.00";
-            var itemPriceWithDelivery = "US $749.00";
+            var itemPrice = "US $719.00";
+            var itemPriceWithDelivery = "US $739.00";
             var clientInfo = new ClientInfo()
             {
                 FirstName ="Pepito",

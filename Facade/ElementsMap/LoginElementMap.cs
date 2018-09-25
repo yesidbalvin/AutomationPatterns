@@ -19,7 +19,7 @@ namespace Facade.ElementsMap
         {
             get
             {
-                return _browser.FindElement(By.Id("gtChk"));
+                return _browser.FindElement(By.Id("sbin-gxo-btn"));
             }
         }
     }

@@ -19,7 +19,7 @@ namespace Facade.ElementsMap
         {
             get
             {
-                return _browser.FindElement(By.Id("af-first-name"));
+                return _browser.FindElement(By.Id("firstName"));
             }
         }
 
@@ -27,56 +27,56 @@ namespace Facade.ElementsMap
         {
             get
             {
-                return _browser.FindElement(By.Id("af-last-name"));
+                return _browser.FindElement(By.Id("lastName"));
             }
         }
         public IWebElement Country
         {
             get
             {
-                return _browser.FindElement(By.Id("af-country"));
+                return _browser.FindElement(By.Id("country"));
             }
         }
         public IWebElement Address1
         {
             get
             {
-                return _browser.FindElement(By.Id("af-address1"));
+                return _browser.FindElement(By.Id("addressLine1"));
             }
         }
         public IWebElement City
         {
             get
             {
-                return _browser.FindElement(By.Id("af-city"));
+                return _browser.FindElement(By.Id("city"));
             }
         }
         public IWebElement Phone
         {
             get
             {
-                return _browser.FindElement(By.ClassName("ipt-phone"));
+                return _browser.FindElement(By.Id("phoneNumber"));
             }
         }
         public IWebElement Zip
         {
             get
             {
-                return _browser.FindElement(By.Id("af-zip"));
+                return _browser.FindElement(By.Id("postalCode"));
             }
         }
         public IWebElement Email
         {
             get
             {
-                return _browser.FindElement(By.Id("af-email"));
+                return _browser.FindElement(By.Id("email"));
             }
         }
         public IWebElement ConfirmEmail
         {
             get
             {
-                return _browser.FindElement(By.Id("af-email-confirm"));
+                return _browser.FindElement(By.Id("emailConfirm"));
             }
         }
 
@@ -84,7 +84,8 @@ namespace Facade.ElementsMap
         {
             get
             {
-                return _browser.FindElement(By.XPath(String.Concat("//*[@id=", '"',"cart-total", '"', "]/table/tbody/tr[2]/td[2]/span")));
+                //*[@id="mainContent"]/div/div/div/div[2]/div[3]/section/div[1]/div/table/tbody/tr[3]/td[2]/span
+                return _browser.FindElement(By.XPath(String.Concat("//*[@id=", '"', "mainContent", '"', "]/div/div/div/div[2]/div[3]/section/div[1]/div/table/tbody/tr[3]/td[2]/span")));
             }
         }
     }

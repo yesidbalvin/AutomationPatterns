@@ -19,7 +19,7 @@ namespace Singleton
         [TestInitialize]
         public void SetupTest()
         {
-            Driver.StartBrowser();
+            Driver.StartBrowser(Data.BrowserType.Chrome, 30);
         }
 
         [TestCleanup]
